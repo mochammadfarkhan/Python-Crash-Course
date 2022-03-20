@@ -21,3 +21,38 @@ tipe data yang memuat bilangan berkoma
 y = 2.5
 ```
 
+## Boolean
+tipe data yang menyatakan **Benar** (***True***) atu **Salah** (***False***)
+```python
+kondisi = True
+keadaan = False
+```
+
+## Hexadecimal
+tipe data yang memuat bilangan heksa (bilangan berbasis 16)
+```python
+bilangan_heksa = 8c
+```
+
+## Complex
+tipe data yang memuat bilangan real dan imajiner
+```python
+persamaan = 4 + 5j
+```
+
+## List
+struktur data yang bisa menyimpan berbagai tipe data dan isinya dapat dirubah-rubah
+```python
+list_random = ['buah', True, 25]
+```
+
+## Tuple
+struktur data yang bisa menyimpan berbagai tipe data namun isinya tidak dapat dirubah-rubah
+```python
+tuple_random = ('buah', True, 25)
+```
+
+## Dictionary
+struktur data yang dapat menyimpan berbagai tipe data berupa pasangan **penunjuk** dan **nilai** ***(Key and Value)***
+```python
+identitas = {'nama' : 'farkhan', 'alamat' : "jl Harapan", "nomor_hp" : 6289652}
