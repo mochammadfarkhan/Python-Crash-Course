@@ -23,16 +23,43 @@ keyword adalah sebuah kata yg disediakan untuk menulis instruksi dalam python. S
 ## Operasi Aritmatika
 
 berikut adalah operator yang digunakan untuk melakakukan aritmatika dasar di python :
-* a + b = Adds a and b
+* a + b = menambah a dan b
+```python 
+    x = 1 + 2
+    # x = 3
+```
 
-* a - b = Subtracts b from a
+* a - b = mengurangi a dengan b
+```python 
+    x = 3 - 1
+    # x = 2
+```
 
-* a * b = Multiplies a and b
+* a * b = mengali a dan b
+```python 
+    x = 1 * 1
+    # x = 1
+```
 
-* a / b = Divides a by b
+* a / b = membagi a dengan b
+```python 
+    x = 8 / 2
+    # x = 4
+```
 
-* a ** b = Elevates a to the power of b. For non integer values of b, this becomes a root (i.e. a**(1/2) is the square root of a)
+* a ** b = operasi a pangkat b. untuk nilai selain integer untuk bilangan b, maka akan menjadi akar (i.e. a**(1/2) artinya akar dari a)
+```python 
+    x = 2 ** 3
+    # x = 8
+```
 
-* a // b = The integer part of the integer division of a by b
-
-* a % b = The remainder part of the integer division of a by b
+* a // b = bilangan divisio, bilangan bulat yg habis membagi a
+```python 
+    x = 7 // 2
+    # x = 3
+```
+* a % b = bilangan modulo, bilangan sisa hasil bagi a oleh b
+```python 
+    x = 7 % 2
+    # x = 1
+```
